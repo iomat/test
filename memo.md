@@ -3,8 +3,8 @@
 $ python3 -m env env  
 $ source venv/bin/activate  
 (venv) $ pip3 install pycryptodome  
-    
-    
+
+<br> 
 ### ■ 検証要ファイルの作成
 (venv) $ touch rsa_test.py  
 
@@ -32,12 +32,12 @@ msg = pow(enc, d, N)
 msg = long_to_bytes(msg)
 print(f"\n{msg = }")
 ```
-    
-    
+
+<br>    
 ### ■ 検証
 (venv) $ python3 rsa_test.py  
-    
-    
+
+<br>  
 ### ■ 検証用環境の削除
 (venv) $ deactivate  
 $ rm -r venv  
