@@ -1,12 +1,12 @@
 
 ### ■ 検証用環境の準備
-$ python3 -m env env
-$ source venv/bin/activate
-(venv) $ pip3 install pycryptodome
-
-
+$ python3 -m env env  
+$ source venv/bin/activate  
+(venv) $ pip3 install pycryptodome  
+    
+    
 ### ■ 検証要ファイルの作成
-(venv) $ touch rsa_test.py
+(venv) $ touch rsa_test.py  
 
 ```rsa_test.py
 from Crypto.Util.number import getPrime, bytes_to_long, long_to_bytes
@@ -32,12 +32,12 @@ msg = pow(enc, d, N)
 msg = long_to_bytes(msg)
 print(f"\n{msg = }")
 ```
-
-  
+    
+    
 ### ■ 検証
-(venv) $ python3 rsa_test.py
-  
-  
+(venv) $ python3 rsa_test.py  
+    
+    
 ### ■ 検証用環境の削除
 (venv) $ deactivate  
 $ rm -r venv  
