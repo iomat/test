@@ -6,7 +6,7 @@ $ source venv/bin/activate
 
 <br />
 
-### ■ 検証要ファイルの作成
+### ■ 検証用ファイルの作成
 (venv) $ touch rsa_test.py  
 
 ```rsa_test.py
