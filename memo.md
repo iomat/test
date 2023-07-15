@@ -39,6 +39,6 @@ print(f"\n{msg = }")
   
   
 ### ■ 検証用環境の削除
-(venv) $ deactivate
-$ rm -r venv
-$ rm rsa_test.py
+(venv) $ deactivate  
+$ rm -r venv  
+$ rm rsa_test.py  
