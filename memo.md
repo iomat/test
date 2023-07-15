@@ -33,11 +33,11 @@ msg = long_to_bytes(msg)
 print(f"\n{msg = }")
 ```
 
-
+  
 ### ■ 検証
 (venv) $ python3 rsa_test.py
 
-
+  
 ### ■ 検証用環境の削除
 (venv) $ deactivate
 $ rm -r venv
